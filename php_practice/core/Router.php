@@ -51,7 +51,6 @@ class Router
         $this->routes['POST'][$uri] = $controller;
     }
 
-
     public static function load($page)
     {
         $router = new static;

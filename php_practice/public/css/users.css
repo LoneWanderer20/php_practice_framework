@@ -1,0 +1,16 @@
+.delete-button, .update-button {
+    background-color: mediumblue;
+    color: #fff;
+    margin-left: 30px;
+}
+.delete-button:hover, .update-button:hover {
+    background-color: lightblue;
+}
+.delete-button:active, .update-button:active {
+    background-color: mediumblue;
+}
+.hidden-id {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}

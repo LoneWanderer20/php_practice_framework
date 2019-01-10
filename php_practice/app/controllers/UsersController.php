@@ -16,7 +16,8 @@ class UsersController
     public function store()
     {
         App::get('database')->insert('users', [
-            'name' => $_POST['name']
+            'name' => $_POST['name'],
+            'age' => $_POST['age']
         ]);
 
         header('Location: /users');
